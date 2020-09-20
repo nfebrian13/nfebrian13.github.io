@@ -5,7 +5,7 @@
 - Javascript
 
 # Information about me
-You can click information about me at this link https://nfebrian13.github.io/resume/
+You can click information about me at this link https://nfebrian13.github.io/
 
 # My personal website preview
 ![alt text](https://nfebrian13.github.io/resume/img/index-resume.PNG)
