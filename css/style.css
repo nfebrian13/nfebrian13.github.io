@@ -254,9 +254,10 @@ a {
 }
 
 .bg-overlay {
-    /* background: rgba(6, 52, 72, 0.67); */
-    /* background: rgba(360, 80, 32, 1);  */ 
-    animation-name: colorChange;
+     /*background: rgba(6, 52, 72, 0.67); */
+     background:#54B689;
+     /*background: rgba(360, 80, 32, 1);   */
+    /*animation-name: colorChange;*/
     animation-duration: 15s;
     animation-iteration-count: infinite;
     position: absolute;
