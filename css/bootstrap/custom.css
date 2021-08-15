@@ -1,0 +1,82 @@
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.jumbotron{
+	height: 36em;
+	background: #134E5E;
+    background: -webkit-linear-gradient(to top, #71B280, #134E5E);
+    background: linear-gradient(to top, #71B280, #134E5E);
+    color: white;
+    padding: 4em 0;
+}
+
+.jumbotron .jumbotron-inside{
+	margin-top: 2em;
+}
+
+.sosmed img {
+	width: 2.875em; 
+	height: 2.875em; 
+	margin-right: 0.5em;
+}
+
+
+ul > li {
+    display: inline-block;  
+    padding-right: 0.5em; 
+    zoom:1;
+    *display:inline;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    font-family: 'Oswald', sans-serif;
+    line-height: 2em;
+    text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+    color: gold;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #e7e7e7;
+   color: white;
+   text-align: center;
+   height: 3em;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 350px) {
+ .container p {
+    font-size: 14px;
+  }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (max-width: 600px) {
+ .container p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.menu li a {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+.menu li a {
+    font-size: 10px;
+  }
+
+.menu {
+	margin-left: -2em;
+}
+
+}
