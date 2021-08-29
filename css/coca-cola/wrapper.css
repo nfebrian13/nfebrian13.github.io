@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  position: relative;
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .wrapper {
+    padding: 40px;
+  }
+}
