@@ -6,6 +6,7 @@
 }
 
 section {
+  height: 500px; /** solve untuk not scrolling. **/
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -68,7 +69,7 @@ header ul li a:hover {
 }
 
 .content .textBox h2 span {
-  color: #3e4e48;
+  color: #017143;
   font-size: 1.2em;
   font-weight: 900;
 }
@@ -81,7 +82,7 @@ header ul li a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: #3e4e48;
+  background: #017143;
   color: #fff;
   border-radius: 40px;
   font-weight: 500;
